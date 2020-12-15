@@ -1,7 +1,7 @@
-|   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |
-|   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |
-|   |     | 🌳 |     |   |   | 🌳 |     | 🌳 |   |   |     |     | 🌳 |   |   | 🌳 |     |     |   |
-|   |     |     | 🌳 |   |   |     | 🌳 | 🌳 |   |   | 🌳 |     | 🌳 |   |   |     | 🌳 | 🌳 |   |
-|   | 🌳 | 🌳 | 🌳 |   |   |     | 🌳 |     |   |   |     | 🌳 | 🌳 |   |   | 🌳 | 🌳 |     |   |
-|   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |
-|   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |   |     |     |     |   |
+|   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |
+|   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |
+|   |    | [[https://github.com/neeasade/dotfiles/blob/master/bin/bin/elisp][🌳]] |    |   |   | [[https://github.com/neeasade/emacs.d/blob/master/lisp/dirt.el][🌳]] |    | [[https://github.com/neeasade/dotfiles/blob/master/shell/.sh.d/environment_emacs][🌳]] |   |   |    |    | [[https://notes.neeasade.net/Ryo_Fukui.html][🌳]] |   |   | [[https://github.com/neeasade/dotfiles/blob/master/wm/.wm/scripts/visual/2bspwm][🌳]] |    |    |   |
+|   |    |    | [[https://github.com/neeasade/dotfiles/blob/master/bin/bin/elisp][🌳]] |   |   |    | [[https://github.com/neeasade/emacs.d/blob/master/lisp/dirt.el][🌳]] | [[https://github.com/neeasade/dotfiles/blob/master/shell/.sh.d/environment_emacs][🌳]] |   |   | [[https://notes.neeasade.net/Ryo_Fukui.html][🌳]] |    | [[https://github.com/neeasade/dotfiles/blob/master/wm/.wm/scripts/visual/2bspwm][🌳]] |   |   |    | [[https://notes.neeasade.net/o7.html][🌳]] | [[https://github.com/neeasade/dotfiles/blob/master/wm/.wm/panel/tools/bs][🌳]] |   |
+|   | [[https://github.com/neeasade/dotfiles/blob/master/bin/bin/elisp][🌳]] | [[https://github.com/neeasade/emacs.d/blob/master/lisp/dirt.el][🌳]] | [[https://github.com/neeasade/dotfiles/blob/master/shell/.sh.d/environment_emacs][🌳]] |   |   |    | [[https://notes.neeasade.net/Ryo_Fukui.html][🌳]] |    |   |   |    | [[https://github.com/neeasade/dotfiles/blob/master/wm/.wm/scripts/visual/2bspwm][🌳]] | [[https://notes.neeasade.net/o7.html][🌳]] |   |   | [[https://github.com/neeasade/dotfiles/blob/master/wm/.wm/panel/tools/bs][🌳]] | [[https://github.com/neeasade/dotfiles/blob/master/wm/.wm/panel/lemonade][🌳]] |    |   |
+|   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |
+|   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |   |    |    |    |   |
