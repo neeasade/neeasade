@@ -21,3 +21,5 @@ https://notes.neeasade.net/xeros-irc-ref.html
 https://notes.neeasade.net/Ryo_Fukui.html
 https://notes.neeasade.net/shell-getopts.html
 https://notes.neeasade.net/o7.html
+https://notes.neeasade.net/Calf-Path.html
+https://github.com/neeasade/AdventOfCode/blob/master/src/aoc/2020.clj
