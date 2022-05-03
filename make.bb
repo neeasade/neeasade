@@ -2,9 +2,7 @@
 
 (require '[clojure.string :as string])
 
-;; (def moons ["🌑""🌒""🌓""🌔""🌕""🌖""🌗""🌘"])
-
-(def moons ["🟣" "🟢" "🟠" "🔴"])
+(def orbs ["⚪" "🔵" "🟣" "🟢" "🟤" "🟡" "🔴" "🟠"])
 
 (spit
  "readme.md"
@@ -12,16 +10,15 @@
   (fn [state links]
     (reduce
      (fn [state-in [replace link]]
-       (string/replace-first state-in replace
-                             (format "<a href=\"%s\">%s</a>"
+       (string/replace-first state-in
+                             (re-pattern (format "([^a-zA-Z])%s([^a-zA-Z])" (inc replace)))
+                             (format "$1<a href=\"%s\">%s</a>$2"
                                      link
-                                     (nth moons (dec (Integer/parseInt replace)))
-                                     )))
-     state (partition 2 (interleave '("1" "2" "3" "4") links))))
+                                     (nth orbs (mod replace (count orbs))))))
+     state (partition 2 (interleave (range 8) links))))
   (slurp "readme_pre.txt")
-  (partition 4
+  (partition 8
              (-> "links.txt"
                  slurp
                  (string/split #"\n")
-                 shuffle
-                 ))))
+                 shuffle))))
