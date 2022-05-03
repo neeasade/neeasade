@@ -2,7 +2,7 @@
 
 (require '[clojure.string :as string])
 
-(def orbs ["⚪" "🔵" "🟣" "🟢" "🟤" "🟡" "🔴" "🟠"])
+(def orbs ["⚪" "🔵" "🟣" "🟢" "⚪"  "🟡" "🔴" "🟠" "⚪" ])
 
 (spit
  "readme.md"
@@ -15,9 +15,9 @@
                              (format "$1<a href=\"%s\">%s</a>$2"
                                      link
                                      (nth orbs (mod replace (count orbs))))))
-     state (partition 2 (interleave (range 8) links))))
+     state (partition 2 (interleave (range 9) links))))
   (slurp "readme_pre.txt")
-  (partition 8
+  (partition 9
              (-> "links.txt"
                  slurp
                  (string/split #"\n")

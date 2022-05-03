@@ -7,6 +7,7 @@ https://github.com/neeasade/dotfiles/blob/master/bin/bin/mpv
 https://github.com/neeasade/dotfiles/blob/master/bin/bin/music
 https://github.com/neeasade/dotfiles/blob/master/bin/bin/og
 https://github.com/neeasade/dotfiles/blob/master/bin/bin/player.sh
+https://github.com/neeasade/dotfiles/blob/master/bin/bin/stowo
 https://github.com/neeasade/dotfiles/blob/master/os/mac/bin/skhdrc-gen
 https://github.com/neeasade/dotfiles/blob/master/shell/.sh.d/environment
 https://github.com/neeasade/dotfiles/blob/master/shell/.sh.d/environment_emacs
@@ -27,14 +28,17 @@ https://github.com/neeasade/tarps
 https://notes.neeasade.net/Automata-tiling-backgrounds-2.html
 https://notes.neeasade.net/Automata-tiling-backgrounds.html
 https://notes.neeasade.net/Calf-Path.html
+https://notes.neeasade.net/Pok3r-Mapping.html
 https://notes.neeasade.net/Ryo_Fukui.html
 https://notes.neeasade.net/adhoc-executable-patching-on-nix.html
 https://notes.neeasade.net/checking-for-toots.html
+https://notes.neeasade.net/colemak-dh-mod.html
 https://notes.neeasade.net/color-spaces.html
 https://notes.neeasade.net/fortune-quotes.html
 https://notes.neeasade.net/o7.html
 https://notes.neeasade.net/rice-links.html
 https://notes.neeasade.net/search-term-playlists.html
+https://notes.neeasade.net/shell-getopts.html
 https://notes.neeasade.net/shell-getopts.html
 https://notes.neeasade.net/sxhkd-ish.html
 https://notes.neeasade.net/systemd-user-services.html
