@@ -2,23 +2,26 @@
 
 (require '[clojure.string :as string])
 
-(filter #(= \, %) "arst,")
+;; (def moons ["🌑""🌒""🌓""🌔""🌕""🌖""🌗""🌘"])
 
-(def moons ["🌑""🌒""🌓""🌔""🌕""🌖""🌗""🌘"])
+(def moons ["🟣" "🟢" "🟠" "🔴"])
 
 (spit
- "readme.org"
+ "readme.md"
  (reduce
-  (fn [state link]
-    (string/replace-first state "," (format "[[%s][%s]]"
-                                            link
-                                            (nth (reverse moons)
-                                                 (mod
-                                                  (count (filter #(= \, %) state))
-                                                  (count moons)
-                                                  )))))
+  (fn [state links]
+    (reduce
+     (fn [state-in [replace link]]
+       (string/replace-first state-in replace
+                             (format "<a href=\"%s\">%s</a>"
+                                     link
+                                     (nth moons (dec (Integer/parseInt replace)))
+                                     )))
+     state (partition 2 (interleave '("1" "2" "3" "4") links))))
   (slurp "readme_pre.txt")
-  (-> "links.txt"
-      slurp
-      (string/split #"\n")
-      shuffle)))
+  (partition 4
+             (-> "links.txt"
+                 slurp
+                 (string/split #"\n")
+                 shuffle
+                 ))))
