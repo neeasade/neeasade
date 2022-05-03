@@ -11,7 +11,7 @@
     (reduce
      (fn [state-in [replace link]]
        (string/replace-first state-in
-                             (re-pattern (format "([^a-zA-Z])%s([^a-zA-Z])" (inc replace)))
+                             (re-pattern (format "([^a-zA-Z-])%s([^a-zA-Z])" (inc replace)))
                              (format "$1<a href=\"%s\">%s</a>$2"
                                      link
                                      (nth orbs (mod replace (count orbs))))))
